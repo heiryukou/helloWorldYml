@@ -42,8 +42,9 @@ jobs:
           echo Build Script start
           ${{ github.workspace }}/script/ci_build.bat ${{ github.workspace }} ${{ runner.temp }} ${{ runner.arch }}
           echo Build Script end
-      # - name: Publish Artifact
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: build-artifacts
-      #     path: ${{ runner.workspace }}
+
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifacts
+          path: ${{ runner.arch }}
