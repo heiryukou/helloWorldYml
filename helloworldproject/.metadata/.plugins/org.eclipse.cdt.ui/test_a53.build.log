@@ -1,0 +1,27 @@
+11:28:17 **** Build of configuration Debug for project test_a53 ****
+make all fmp.bin 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: test_a53.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/bsplib/lib -o "test_a53.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group
+'Finished building target: test_a53.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size test_a53.elf  |tee "test_a53.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30228	   2048	  20676	  52952	   ced8	test_a53.elf
+'Finished building: test_a53.elf.size'
+' '
+make: *** No rule to make target 'fmp.bin'.  Stop.
+
+11:28:18 Build Finished (took 1s.11ms)
+

@@ -1,0 +1,11 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader, destination_cpu = a53-0]C:\SHI\helloworld\helloworld\bootloader\zynqmp_fsbl.elf
+	[pmufw_image]C:\SHI\helloworld\helloworld\bootloader\pmufw.elf
+	[destination_cpu = a53-0, exception_level = el-3, trustzone]C:\SHI\helloworld\helloworld\bootloader\bl31.elf
+	[load = 0x00100000, destination_cpu = a53-0]C:\SHI\helloworld\helloworld\bootloader\system.dtb
+	[destination_cpu = a53-0, exception_level = el-2]C:\SHI\helloworld\helloworld\bootloader\u-boot.elf
+	[load = 0x00800000, destination_cpu = a53-0]C:\SHI\helloworld\helloworld\bootloader\u-boot.scr
+	[load = 0x00200000, destination_cpu = a53-0]C:\SHI\helloworld\helloworld\project\test_a53\Debug\test_a53.bin
+}

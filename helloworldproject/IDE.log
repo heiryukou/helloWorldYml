@@ -1,0 +1,17 @@
+11:24:41 DEBUG : Logs will be stored at 'C:/SHI/helloworld/helloworldproject/IDE.log'.
+11:24:49 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\SHI\helloworld\helloworldproject\temp_xsdb_launch_script.tcl
+11:24:49 INFO  : Registering command handlers for Vitis TCF services
+11:24:50 INFO  : Platform repository initialization has completed.
+11:24:54 INFO  : XSCT server has started successfully.
+11:24:54 INFO  : Successfully done setting XSCT server connection channel  
+11:24:54 INFO  : plnx-install-location is set to ''
+11:25:02 INFO  : Successfully done setting workspace for the tool. 
+11:25:02 INFO  : Successfully done query RDI_DATADIR 
+11:25:20 INFO  : Platform 'sample_vitis_zcu106' is added to custom repositories.
+11:25:23 INFO  : [Import] Updating active build configuration of the system project 'test_a53_system' to 'Debug' after the import.
+11:26:07 INFO  : Result from executing command 'removePlatformRepo': 
+11:26:23 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+11:27:02 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+11:28:11 INFO  : Result from executing command 'getProjects': sample_vitis_zcu106
+11:28:11 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202210_1|D:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|D:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|D:/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+11:28:12 INFO  : Checking for BSP changes to sync application flags for project 'test_a53'...

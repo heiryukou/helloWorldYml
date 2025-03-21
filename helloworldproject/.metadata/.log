@@ -1,0 +1,1076 @@
+!SESSION 2025-02-07 11:23:55.481 -----------------------------------------------
+eclipse.buildId=2021.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2025-02-07 11:24:47.283
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:24:54.751
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:24:54.751
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:24:54.765
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:24:54.765
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:24:54.767
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-13
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:24:54.781
+!MESSAGE XSCT Command: [setws C:/SHI/helloworld/helloworldproject], Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-02-07 11:25:00.250
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: , Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-02-07 11:25:00.252
+!MESSAGE Workspace path used is: C:\SHI\helloworld\helloworldproject
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:25:02.371
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:25:02.371
+!MESSAGE XSCT command with result: [setws C:/SHI/helloworld/helloworldproject], Result: [null, ]. Thread: Thread-20
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:25:02.371
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:25:02.382
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/Xilinx/Vitis/2022.1/data]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-07 11:25:18.915
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-07 11:25:18.915
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2025-02-07 11:25:18.915
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2025-02-07 11:25:20.325
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.part.IntroPart.dispose(IntroPart.java:99)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.dispose(ViewIntroAdapterPart.java:153)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:260)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1002)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:967)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:200)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:176)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:491)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:954)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:115)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:945)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:187)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1406)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1537)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1496)
+	at org.eclipse.ui.internal.WorkbenchPage.hideView(WorkbenchPage.java:2609)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.closeIntro(WorkbenchIntroManager.java:98)
+	at com.xilinx.sdx.ui.utils.SWTUtils.closeWelcomeView(SWTUtils.java:529)
+	at com.xilinx.sdx.system.datatransfer.ui.SdxArchiveImportWizard.lambda$0(SdxArchiveImportWizard.java:82)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at com.xilinx.sdx.system.datatransfer.ui.SdxArchiveImportWizard.performFinish(SdxArchiveImportWizard.java:85)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.xilinx.sdx.system.datatransfer.ui.SdxArchiveImportAction.openImportWizard(SdxArchiveImportAction.java:51)
+	at com.xilinx.sdx.system.datatransfer.ui.SdxArchiveImportAction.run(SdxArchiveImportAction.java:41)
+	at com.xilinx.ide.application.ui.CustomActionBarAdvisor$4$1.widgetSelected(CustomActionBarAdvisor.java:568)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-07 11:25:35.444
+!MESSAGE Indexed 'sample_vitis_zcu106' (1,555 sources, 2,352 headers) in 14.7 sec: 226,737 declarations; 697,604 references; 762 unresolved inclusions; 1,526 syntax errors; 12,362 unresolved names (1.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-07 11:25:35.446
+!MESSAGE Indexed 'test_a53_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-07 11:25:36.257
+!MESSAGE Indexed 'test_a53' (2 sources, 50 headers) in 0.794 sec: 1,455 declarations; 2,129 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:12.344
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:17.645
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:17.660
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/system.mss ], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:17.699
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:17.701
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:17.744
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "7.7",
+}]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-02-07 11:28:17.745
+!MESSAGE Generating MD5 hash for file: C:\SHI\helloworld\helloworldproject\sample_vitis_zcu106\export\sample_vitis_zcu106\sw\sample_vitis_zcu106\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:17.763
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/system.mss], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:17.765
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2025-02-07 11:28:18.827
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:19.156
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa], Thread: Worker-6: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-02-07 11:28:19.172
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/hw/edt_zcu106_wrapper.xsa], Result: [null, {"zynq_ultra_ps_e_0": {"hier_name": "zynq_ultra_ps_e_0",
+"type": "zynq_ultra_ps_e",
+"version": "3.4",
+"ip_type": "",
+},
+"psu_axi_interconnect_0": {"hier_name": "psu_axi_interconnect_0",
+"type": "psu_axi_interconnect",
+"version": "1.0",
+"ip_type": "BUS",
+},
+"psu_coresight_0": {"hier_name": "psu_coresight_0",
+"type": "psu_coresight_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_acpu_gic": {"hier_name": "psu_acpu_gic",
+"type": "psu_acpu_gic",
+"version": "1.0",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"psu_rcpu_gic": {"hier_name": "psu_rcpu_gic",
+"type": "psu_rcpu_gic",
+"version": "1.0",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"psu_r5_tcm_ram_global": {"hier_name": "psu_r5_tcm_ram_global",
+"type": "psu_r5_tcm_ram",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_tcm_ram_0": {"hier_name": "psu_r5_tcm_ram_0",
+"type": "psu_r5_tcm_ram",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ocm_ram_0": {"hier_name": "psu_ocm_ram_0",
+"type": "psu_ocm_ram_0",
+"version": "1.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"psu_ocm": {"hier_name": "psu_ocm",
+"type": "psu_ocm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_1_btcm": {"hier_name": "psu_r5_1_btcm",
+"type": "psu_r5_1_btcm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_1_btcm_global": {"hier_name": "psu_r5_1_btcm_global",
+"type": "psu_r5_1_btcm_global",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_1_atcm": {"hier_name": "psu_r5_1_atcm",
+"type": "psu_r5_1_atcm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_1_atcm_global": {"hier_name": "psu_r5_1_atcm_global",
+"type": "psu_r5_1_atcm_global",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_0_btcm_lockstep": {"hier_name": "psu_r5_0_btcm_lockstep",
+"type": "psu_r5_0_btcm_lockstep",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_0_btcm": {"hier_name": "psu_r5_0_btcm",
+"type": "psu_r5_0_btcm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_0_btcm_global": {"hier_name": "psu_r5_0_btcm_global",
+"type": "psu_r5_0_btcm_global",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_0_atcm_lockstep": {"hier_name": "psu_r5_0_atcm_lockstep",
+"type": "psu_r5_0_atcm_lockstep",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_0_atcm": {"hier_name": "psu_r5_0_atcm",
+"type": "psu_r5_0_atcm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_0_atcm_global": {"hier_name": "psu_r5_0_atcm_global",
+"type": "psu_r5_0_atcm_global",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_bbram_0": {"hier_name": "psu_bbram_0",
+"type": "psu_bbram_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_pmu_ram": {"hier_name": "psu_pmu_ram",
+"type": "psu_pmu_ram",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_pmu_iomodule": {"hier_name": "psu_pmu_iomodule",
+"type": "psu_pmu_iomodule",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_pmu_global_0": {"hier_name": "psu_pmu_global_0",
+"type": "psu_pmu_global_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_mbistjtag": {"hier_name": "psu_mbistjtag",
+"type": "psu_mbistjtag",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_rsa": {"hier_name": "psu_rsa",
+"type": "psu_rsa",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_efuse": {"hier_name": "psu_efuse",
+"type": "psu_efuse",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_csu_0": {"hier_name": "psu_csu_0",
+"type": "psu_csu",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_csu_wdt": {"hier_name": "psu_csu_wdt",
+"type": "psu_wdt",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_csudma": {"hier_name": "psu_csudma",
+"type": "psu_csudma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_smmu_gpv": {"hier_name": "psu_smmu_gpv",
+"type": "psu_smmu_gpv",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_fpd_gpv": {"hier_name": "psu_fpd_gpv",
+"type": "psu_fpd_gpv",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_cci_gpv": {"hier_name": "psu_cci_gpv",
+"type": "psu_cci_gpv",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_fpd_slcr_secure": {"hier_name": "psu_fpd_slcr_secure",
+"type": "psu_fpd_slcr_secure",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_fpd_slcr": {"hier_name": "psu_fpd_slcr",
+"type": "psu_fpd_slcr",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_smmu_reg": {"hier_name": "psu_smmu_reg",
+"type": "psu_smmu_reg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_cci_reg": {"hier_name": "psu_cci_reg",
+"type": "psu_cci_reg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_fpd_xmpu_cfg": {"hier_name": "psu_fpd_xmpu_cfg",
+"type": "psu_fpd_xmpu_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_apu": {"hier_name": "psu_apu",
+"type": "psu_apu",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_7": {"hier_name": "psu_gdma_7",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_6": {"hier_name": "psu_gdma_6",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_5": {"hier_name": "psu_gdma_5",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_4": {"hier_name": "psu_gdma_4",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_3": {"hier_name": "psu_gdma_3",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_2": {"hier_name": "psu_gdma_2",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_1": {"hier_name": "psu_gdma_1",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gdma_0": {"hier_name": "psu_gdma_0",
+"type": "psu_gdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_fpd_xmpu_sink": {"hier_name": "psu_fpd_xmpu_sink",
+"type": "psu_fpd_xmpu_sink",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_dpdma": {"hier_name": "psu_dpdma",
+"type": "psu_dpdma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gpu": {"hier_name": "psu_gpu",
+"type": "psu_gpu",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_dp": {"hier_name": "psu_dp",
+"type": "psu_dp",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_apm_5": {"hier_name": "psu_apm_5",
+"type": "psu_apm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_serdes": {"hier_name": "psu_serdes",
+"type": "psu_serdes",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_siou": {"hier_name": "psu_siou",
+"type": "psu_siou",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_afi_5": {"hier_name": "psu_afi_5",
+"type": "psu_afi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_afi_4": {"hier_name": "psu_afi_4",
+"type": "psu_afi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_afi_3": {"hier_name": "psu_afi_3",
+"type": "psu_afi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_afi_2": {"hier_name": "psu_afi_2",
+"type": "psu_afi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_afi_1": {"hier_name": "psu_afi_1",
+"type": "psu_afi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_afi_0": {"hier_name": "psu_afi_0",
+"type": "psu_afi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_crf_apb": {"hier_name": "psu_crf_apb",
+"type": "psu_crf_apb",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_sata": {"hier_name": "psu_sata",
+"type": "psu_sata",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_apm_0": {"hier_name": "psu_apm_0",
+"type": "psu_apm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_qos_ctrl": {"hier_name": "psu_ddr_qos_ctrl",
+"type": "psu_ddr_qos_ctrl",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_phy": {"hier_name": "psu_ddr_phy",
+"type": "psu_ddr_phy",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_xmpu5_cfg": {"hier_name": "psu_ddr_xmpu5_cfg",
+"type": "psu_ddr_xmpu5_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_xmpu4_cfg": {"hier_name": "psu_ddr_xmpu4_cfg",
+"type": "psu_ddr_xmpu4_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_xmpu3_cfg": {"hier_name": "psu_ddr_xmpu3_cfg",
+"type": "psu_ddr_xmpu3_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_xmpu2_cfg": {"hier_name": "psu_ddr_xmpu2_cfg",
+"type": "psu_ddr_xmpu2_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_xmpu1_cfg": {"hier_name": "psu_ddr_xmpu1_cfg",
+"type": "psu_ddr_xmpu1_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ddr_xmpu0_cfg": {"hier_name": "psu_ddr_xmpu0_cfg",
+"type": "psu_ddr_xmpu0_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_7": {"hier_name": "psu_adma_7",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_6": {"hier_name": "psu_adma_6",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_5": {"hier_name": "psu_adma_5",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_4": {"hier_name": "psu_adma_4",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_3": {"hier_name": "psu_adma_3",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_2": {"hier_name": "psu_adma_2",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_1": {"hier_name": "psu_adma_1",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_adma_0": {"hier_name": "psu_adma_0",
+"type": "psu_adma",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ocm_xmpu_cfg": {"hier_name": "psu_ocm_xmpu_cfg",
+"type": "psu_ocm_xmpu_cfg",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_rtc": {"hier_name": "psu_rtc",
+"type": "psu_rtc",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ams": {"hier_name": "psu_ams",
+"type": "psu_ams",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_apm_2": {"hier_name": "psu_apm_2",
+"type": "psu_apm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_apm_1": {"hier_name": "psu_apm_1",
+"type": "psu_apm",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_usb_0": {"hier_name": "psu_usb_0",
+"type": "psu_usb",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_usb_xhci_0": {"hier_name": "psu_usb_xhci_0",
+"type": "psu_usb_xhci",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_lpd_xppu_sink": {"hier_name": "psu_lpd_xppu_sink",
+"type": "psu_lpd_xppu_sink",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_afi_6": {"hier_name": "psu_afi_6",
+"type": "psu_afi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_rpu": {"hier_name": "psu_rpu",
+"type": "psu_rpu",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_lpd_xppu": {"hier_name": "psu_lpd_xppu",
+"type": "psu_lpd_xppu",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_crl_apb": {"hier_name": "psu_crl_apb",
+"type": "psu_crl_apb",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_lpd_slcr_secure": {"hier_name": "psu_lpd_slcr_secure",
+"type": "psu_lpd_slcr_secure",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_lpd_slcr": {"hier_name": "psu_lpd_slcr",
+"type": "psu_lpd_slcr",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ipi_0": {"hier_name": "psu_ipi_0",
+"type": "psu_ipi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ipi_1": {"hier_name": "psu_ipi_1",
+"type": "psu_ipi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ipi_2": {"hier_name": "psu_ipi_2",
+"type": "psu_ipi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ipi_3": {"hier_name": "psu_ipi_3",
+"type": "psu_ipi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ipi_4": {"hier_name": "psu_ipi_4",
+"type": "psu_ipi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ipi_5": {"hier_name": "psu_ipi_5",
+"type": "psu_ipi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ipi_6": {"hier_name": "psu_ipi_6",
+"type": "psu_ipi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ctrl_ipi": {"hier_name": "psu_ctrl_ipi",
+"type": "PERIPHERAL",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_message_buffers": {"hier_name": "psu_message_buffers",
+"type": "PERIPHERAL",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_iou_s": {"hier_name": "psu_iou_s",
+"type": "psu_iou_s",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_iou_scntrs": {"hier_name": "psu_iou_scntrs",
+"type": "psu_iou_scntrs",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_iou_scntr": {"hier_name": "psu_iou_scntr",
+"type": "psu_iou_scntr",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_iousecure_slcr": {"hier_name": "psu_iousecure_slcr",
+"type": "psu_iousecure_slcr",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_iouslcr_0": {"hier_name": "psu_iouslcr_0",
+"type": "psu_iouslcr",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_r5_ddr_0": {"hier_name": "psu_r5_ddr_0",
+"type": "psu_ddr",
+"version": "1.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"psu_ddr_0": {"hier_name": "psu_ddr_0",
+"type": "psu_ddr",
+"version": "1.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"psu_ddr_1": {"hier_name": "psu_ddr_1",
+"type": "psu_ddr",
+"version": "1.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"psu_ddrc_0": {"hier_name": "psu_ddrc_0",
+"type": "psu_ddrc",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_sd_1": {"hier_name": "psu_sd_1",
+"type": "psu_sd",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_wdt_0": {"hier_name": "psu_wdt_0",
+"type": "psu_wdt",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_wdt_1": {"hier_name": "psu_wdt_1",
+"type": "psu_wdt",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ttc_3": {"hier_name": "psu_ttc_3",
+"type": "psu_ttc",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ttc_2": {"hier_name": "psu_ttc_2",
+"type": "psu_ttc",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ttc_1": {"hier_name": "psu_ttc_1",
+"type": "psu_ttc",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ttc_0": {"hier_name": "psu_ttc_0",
+"type": "psu_ttc",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_qspi_0": {"hier_name": "psu_qspi_0",
+"type": "psu_qspi",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_ethernet_3": {"hier_name": "psu_ethernet_3",
+"type": "psu_ethernet",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_gpio_0": {"hier_name": "psu_gpio_0",
+"type": "psu_gpio",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_can_1": {"hier_name": "psu_can_1",
+"type": "psu_can",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_i2c_1": {"hier_name": "psu_i2c_1",
+"type": "psu_i2c",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_i2c_0": {"hier_name": "psu_i2c_0",
+"type": "psu_i2c",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_uart_1": {"hier_name": "psu_uart_1",
+"type": "psu_uart",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_uart_0": {"hier_name": "psu_uart_0",
+"type": "psu_uart",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"psu_qspi_linear_0": {"hier_name": "psu_qspi_linear_0",
+"type": "psu_qspi_linear",
+"version": "1.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"psu_cortexa53_0": {"hier_name": "psu_cortexa53_0",
+"type": "psu_cortexa53",
+"version": "1.0",
+"ip_type": "PROCESSOR",
+},
+"psu_cortexa53_1": {"hier_name": "psu_cortexa53_1",
+"type": "psu_cortexa53",
+"version": "1.0",
+"ip_type": "PROCESSOR",
+},
+"psu_cortexa53_2": {"hier_name": "psu_cortexa53_2",
+"type": "psu_cortexa53",
+"version": "1.0",
+"ip_type": "PROCESSOR",
+},
+"psu_cortexa53_3": {"hier_name": "psu_cortexa53_3",
+"type": "psu_cortexa53",
+"version": "1.0",
+"ip_type": "PROCESSOR",
+},
+"psu_cortexr5_0": {"hier_name": "psu_cortexr5_0",
+"type": "psu_cortexr5",
+"version": "1.0",
+"ip_type": "PROCESSOR",
+},
+"psu_cortexr5_1": {"hier_name": "psu_cortexr5_1",
+"type": "psu_cortexr5",
+"version": "1.0",
+"ip_type": "PROCESSOR",
+},
+"psu_pmu_0": {"hier_name": "psu_pmu_0",
+"type": "psu_pmu",
+"version": "9.2",
+"ip_type": "PROCESSOR",
+},
+}]. Thread: Worker-6: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:33:59.150
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:33:59.182
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:33:59.198
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:33:59.198
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:36:44.216
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:36:44.248
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:36:44.248
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:36:44.248
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:39:36.618
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:39:36.647
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:39:36.647
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:39:36.647
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:47:15.951
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:47:15.967
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:47:15.967
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:47:15.967
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:58:46.263
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:58:46.263
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:58:46.263
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2025-02-07 11:58:46.263
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
