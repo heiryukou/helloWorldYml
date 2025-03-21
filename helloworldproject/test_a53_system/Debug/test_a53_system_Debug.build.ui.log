@@ -1,0 +1,9 @@
+2025-02-04T20:42:36.917423400255-20:42:36 **** Build of configuration Debug for project test_a53_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 56654 C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm standalone_domain C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+000-sdcard_gen --xpfm C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm --sys_config sample_vitis_zcu106 --bif C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif --no_bitstream --elf C:/SHI/helloworld/helloworldproject/test_a53/Debug/test_a53.elf,psu_cortexa53_0
+000-Running D:/Xilinx/Vitis/2022.1/bin/bootgen -arch zynqmp -image C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+20:42:40 Build Finished (took 3s.805ms)
+

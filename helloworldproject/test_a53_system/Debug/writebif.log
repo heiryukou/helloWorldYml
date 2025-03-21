@@ -1,0 +1,224 @@
+TRACE::2025-01-24.14:37:15::SCWBifWriter::Found the complete platform C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-01-24.14:37:15::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-01-24.14:37:15::SCWBifWriter::No bitstream found in the design
+TRACE::2025-01-24.14:37:15::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-01-24.14:37:15::SCWBifWriter::proc type : 
+TRACE::2025-01-24.14:37:15::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-01-24.14:37:15::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-01-24.14:37:15::SCWBifWriter::Writing BIF to file : C:/SHI/MC-800/helloworld/test_a53_system/Debug/system.bif
+TRACE::2025-01-24.14:37:15::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-01-24.14:37:15::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-01-24.14:37:15::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-01-24.14:37:15::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-01-24.14:37:15::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-01-24.14:37:15::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-01-24.14:52:39::SCWBifWriter::Found the complete platform C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-01-24.14:52:39::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-01-24.14:52:39::SCWBifWriter::No bitstream found in the design
+TRACE::2025-01-24.14:52:39::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-01-24.14:52:39::SCWBifWriter::proc type : 
+TRACE::2025-01-24.14:52:39::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-01-24.14:52:39::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-01-24.14:52:39::SCWBifWriter::Writing BIF to file : C:/SHI/MC-800/helloworld/test_a53_system/Debug/system.bif
+TRACE::2025-01-24.14:52:39::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-01-24.14:52:39::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-01-24.14:52:39::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-01-24.14:52:39::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-01-24.14:52:39::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/MC-800/helloworld/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-01-24.14:52:39::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-01-24.14:52:39::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.18:07:44::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.18:07:44::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.18:07:44::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.18:07:44::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.18:07:44::SCWBifWriter::proc type : 
+TRACE::2025-02-04.18:07:44::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.18:07:44::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.18:07:44::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.18:07:44::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.18:07:44::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:07:44::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.18:07:44::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:07:44::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:07:44::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.18:07:44::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.18:08:36::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.18:08:36::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.18:08:36::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.18:08:36::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.18:08:36::SCWBifWriter::proc type : 
+TRACE::2025-02-04.18:08:36::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.18:08:36::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.18:08:36::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.18:08:36::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.18:08:36::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:08:36::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.18:08:36::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:08:36::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:08:36::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.18:08:36::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.18:21:20::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.18:21:20::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.18:21:20::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.18:21:20::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.18:21:20::SCWBifWriter::proc type : 
+TRACE::2025-02-04.18:21:20::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.18:21:20::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.18:21:20::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.18:21:20::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.18:21:20::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:21:20::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.18:21:20::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:21:20::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:21:20::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.18:21:20::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.18:28:04::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.18:28:04::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.18:28:04::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.18:28:04::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.18:28:04::SCWBifWriter::proc type : 
+TRACE::2025-02-04.18:28:04::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.18:28:04::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.18:28:04::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.18:28:04::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.18:28:04::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:04::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.18:28:04::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:04::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:04::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.18:28:04::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.18:28:19::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.18:28:19::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.18:28:19::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.18:28:19::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.18:28:19::SCWBifWriter::proc type : 
+TRACE::2025-02-04.18:28:19::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.18:28:19::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.18:28:19::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.18:28:19::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.18:28:19::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:19::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.18:28:19::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:19::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:19::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.18:28:19::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.18:28:53::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.18:28:53::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.18:28:53::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.18:28:53::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.18:28:53::SCWBifWriter::proc type : 
+TRACE::2025-02-04.18:28:53::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.18:28:53::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.18:28:53::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.18:28:53::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.18:28:53::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:53::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.18:28:53::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:53::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:28:53::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.18:28:53::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.18:30:00::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.18:30:00::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.18:30:00::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.18:30:00::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.18:30:00::SCWBifWriter::proc type : 
+TRACE::2025-02-04.18:30:00::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.18:30:00::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.18:30:00::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.18:30:00::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.18:30:00::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:30:00::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.18:30:00::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:30:00::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.18:30:00::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.18:30:00::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.20:28:50::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.20:28:50::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.20:28:50::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.20:28:50::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.20:28:50::SCWBifWriter::proc type : 
+TRACE::2025-02-04.20:28:50::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.20:28:50::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.20:28:50::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.20:28:50::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.20:28:50::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:28:50::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.20:28:50::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:28:50::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:28:50::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.20:28:50::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.20:29:17::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.20:29:17::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.20:29:17::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.20:29:17::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.20:29:17::SCWBifWriter::proc type : 
+TRACE::2025-02-04.20:29:17::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.20:29:17::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.20:29:17::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.20:29:17::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.20:29:17::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:17::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.20:29:17::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:17::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:17::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.20:29:17::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.20:29:37::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.20:29:37::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.20:29:37::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.20:29:37::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.20:29:37::SCWBifWriter::proc type : 
+TRACE::2025-02-04.20:29:37::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.20:29:37::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.20:29:37::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.20:29:37::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.20:29:37::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:37::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.20:29:37::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:37::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:37::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.20:29:37::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.20:29:49::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.20:29:49::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.20:29:49::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.20:29:49::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.20:29:49::SCWBifWriter::proc type : 
+TRACE::2025-02-04.20:29:49::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.20:29:49::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.20:29:49::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.20:29:49::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.20:29:49::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:49::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.20:29:49::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:49::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:29:49::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.20:29:49::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.20:31:13::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.20:31:13::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.20:31:13::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.20:31:13::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.20:31:13::SCWBifWriter::proc type : 
+TRACE::2025-02-04.20:31:13::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.20:31:13::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.20:31:13::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.20:31:13::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.20:31:13::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:31:13::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.20:31:13::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:31:13::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:31:13::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.20:31:13::SCWBifWriter::Boot processor is :a53-0
+TRACE::2025-02-04.20:42:37::SCWBifWriter::Found the complete platform C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sample_vitis_zcu106.xpfm
+TRACE::2025-02-04.20:42:38::SCWBifWriter::hardware databse : edt_zcu106_wrapper_0
+TRACE::2025-02-04.20:42:38::SCWBifWriter::No bitstream found in the design
+TRACE::2025-02-04.20:42:38::SCWBifWriter::Found a baremetal domain, proc: psu_cortexa53_0
+TRACE::2025-02-04.20:42:38::SCWBifWriter::proc type : 
+TRACE::2025-02-04.20:42:38::SCWBifWriter::proc[0] : psu_cortexa53_0
+TRACE::2025-02-04.20:42:38::SCWBifWriter::Device type is : zynqMP
+TRACE::2025-02-04.20:42:38::SCWBifWriter::Writing BIF to file : C:/SHI/helloworld/helloworldproject/test_a53_system/Debug/system.bif
+TRACE::2025-02-04.20:42:38::SCWBifWriter::Writing the ZynqMP baremetal bif 
+TRACE::2025-02-04.20:42:38::SCWBifWriter::System Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:42:38::SCWBifWriter:: Removed readelf log file successfully
+TRACE::2025-02-04.20:42:38::SCWBifWriter:: Command Ran  D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:42:38::SCWBifWriter::FSBL processor, command ran D:/Xilinx/Vitis/2022.1/gnu/aarch64/nt/aarch64-none/bin/aarch64-none-elf-readelf -A  C:/SHI/helloworld/helloworldproject/sample_vitis_zcu106/export/sample_vitis_zcu106/sw/sample_vitis_zcu106/boot/fsbl.elf
+TRACE::2025-02-04.20:42:38::SCWBifWriter::FSBL target processor is a53-0
+TRACE::2025-02-04.20:42:38::SCWBifWriter::Boot processor is :a53-0
