@@ -26,8 +26,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
       - name: Set PowerShell execution policy
-        run: Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+        run: |
+          Set-ExecutionPolicy RemoteSigned
         shell: powershell
 
       # Runs a single command using the runners shell
