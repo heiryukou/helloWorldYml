@@ -27,7 +27,7 @@ jobs:
         uses: actions/checkout@v4
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Run a vitis program
         run: echo Hello, world!
         shell: powershell
 
@@ -36,3 +36,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Build Script
+        run: |
+          echo Build Script start
+          ${{ github.workspace }}/script/ci_build.bat ${{ github.workspace }} ${{ runner.temp }} ${{ runner.arch }}
+          echo Build Script end
+      # - name: Publish Artifact
+      #   uses: actions/upload-artifact@v3
+      #   with:
+      #     name: build-artifacts
+      #     path: ${{ runner.workspace }}
