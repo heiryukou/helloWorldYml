@@ -40,12 +40,12 @@ jobs:
       - name: Build Script
         run: |
           echo Build Script start
-          ${{ github.workspace }}/script/ci_build.bat ${{ github.workspace }} ${{ runner.temp }} ${{ runner.arch }}
+          ${{ github.workspace }}/script/ci_build.bat ${{ github.workspace }} ${{ runner.temp }} ${{ runner.temp }}
           echo Build Script end
 
       - name: Publish Artifact
         uses: actions/upload-artifact@v4
         with:
           name: upload-artifacts
-          path: ${{ runner.arch }}
+          path: ${{ runner.temp }}
           
