@@ -41,13 +41,13 @@ jobs:
       - name: Build Script
         run: |
           echo Build Script start
-          ${{ github.workspace }}/script/ci_build.bat ${{ github.workspace }} ${{ runner.temp }} ${{ runner.temp }}
+          ${{ github.workspace }}/script/ci_build.bat ${{ github.workspace }} ${{ github.workspace }}/a ${{ github.workspace }}/b
           echo Build Script end
         shell: powershell
 
-      # - name: Publish Artifact
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: upload-artifacts
-      #     path: ${{ runner.temp }}
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: upload-artifacts
+          path: ${{ github.workspace }}/b
           
