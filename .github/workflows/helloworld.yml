@@ -44,7 +44,8 @@ jobs:
           echo Build Script end
 
       - name: Publish Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/download-artifact@v4.2.1
         with:
-          name: build-artifacts
+          name: download-artifacts
           path: ${{ runner.arch }}
+          
