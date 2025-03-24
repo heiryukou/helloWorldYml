@@ -13,7 +13,6 @@ proc storeFile { imageFile } {
 	global TARGET_OUTPUT_PATH
 
 	puts "storeFile: $imageFile"
-	puts "TARGET_OUTPUT_PATH: $TARGET_OUTPUT_PATH"
 	# 成果物格納フォルダの存在確認(存在しない場合作成する)
 	if { [ file exist $TARGET_OUTPUT_PATH ] != 1 } {
 		if { [ catch { file mkdir $TARGET_OUTPUT_PATH } err ] } {
@@ -22,6 +21,7 @@ proc storeFile { imageFile } {
 		} 
 	}
 	
+	puts "TARGET_OUTPUT_PATH: $TARGET_OUTPUT_PATH"
 	# ソフトウェア実行ファイル格納
 	if { [ catch { file copy -force $imageFile $TARGET_OUTPUT_PATH } err ] } {
 		putLog "ERROR: $err"
@@ -41,7 +41,6 @@ proc storeFileBuild { imageFile } {
 	global TARGET_OUTPUT_PATH_B
 
 	puts "storeFileBuild: $imageFile"
-	puts "TARGET_OUTPUT_PATH_B: $TARGET_OUTPUT_PATH_B"
 	# 成果物格納フォルダの存在確認(存在しない場合作成する)
 	if { [ file exist $TARGET_OUTPUT_PATH_B ] != 1 } {
 		if { [ catch { file mkdir $TARGET_OUTPUT_PATH_B } err ] } {
@@ -50,6 +49,7 @@ proc storeFileBuild { imageFile } {
 		} 
 	}
 	
+	puts "TARGET_OUTPUT_PATH_B: $TARGET_OUTPUT_PATH_B"
 	# ソフトウェア実行ファイル格納
 	if { [ catch { file copy -force $imageFile $TARGET_OUTPUT_PATH_B } err ] } {
 		putLog "ERROR: $err"

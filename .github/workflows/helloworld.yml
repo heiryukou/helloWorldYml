@@ -42,6 +42,7 @@ jobs:
           echo Build Script start
           ${{ github.workspace }}/script/ci_build.bat ${{ github.workspace }} ${{ runner.temp }} ${{ runner.temp }}
           echo Build Script end
+        shell: powershell
 
       - name: Publish Artifact
         uses: actions/upload-artifact@v4
